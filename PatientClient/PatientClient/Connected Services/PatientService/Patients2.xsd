@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Trabalho_WFC.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Trabalho_WFC.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Patient">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Birthday" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Contact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatientUn" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegisterDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="UnitName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Patient" nillable="true" type="tns:Patient" />
+</xs:schema>

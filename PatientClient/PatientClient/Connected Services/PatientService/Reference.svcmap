@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d752f886-9897-42f3-be02-366916d853fa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65346/Services/Patients.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Patients.disco" MetadataType="Disco" ID="c31f9057-aeea-48f2-91f2-94de902b8d27" SourceId="1" SourceUrl="http://localhost:65346/Services/Patients.svc?disco" />
+    <MetadataFile FileName="Patients.xsd" MetadataType="Schema" ID="8eab5add-4f65-4169-81e3-4aaa7864c27e" SourceId="1" SourceUrl="http://localhost:65346/Services/Patients.svc?xsd=xsd0" />
+    <MetadataFile FileName="Patients.wsdl" MetadataType="Wsdl" ID="dc768ae1-c16c-4c10-818c-87f5442bd652" SourceId="1" SourceUrl="http://localhost:65346/Services/Patients.svc?wsdl" />
+    <MetadataFile FileName="Patients1.xsd" MetadataType="Schema" ID="90f780cf-d796-4d5a-847f-e8a5b4dece56" SourceId="1" SourceUrl="http://localhost:65346/Services/Patients.svc?xsd=xsd1" />
+    <MetadataFile FileName="Patients2.xsd" MetadataType="Schema" ID="e73ea4d6-a5e9-4639-8d4b-b60fa7ace0e1" SourceId="1" SourceUrl="http://localhost:65346/Services/Patients.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
